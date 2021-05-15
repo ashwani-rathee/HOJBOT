@@ -35,7 +35,7 @@ function start_bot(;
     @info "Starting bot... command prefix = $COMMAND_PREFIX"
     global client = Client(
         ENV["HOJBOT_DISCORD_TOKEN"];
-        presence=(game=(name="HoJ", type=AT_GAME),),
+        presence=(game=(name="Julia", type=AT_GAME),),
         prefix=COMMAND_PREFIX,
     )
     init_handlers!(client, handlers)

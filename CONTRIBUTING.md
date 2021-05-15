@@ -82,18 +82,6 @@ Rather than introducing a database to the system architecture, many problems
 can be solved by simply saving/loading data in flat file formats such as
 JSON. The `discourse` command provides a good example regarding serialization.
 
-## Going through Pull Request reviews
-
-Once you are happy with your HoJBot changes, you can go ahead and submit a PR.
-All changes must be reviewed by a second person before merging to the `main`
-branch.
-
-We also have a HoJBot Test Server, where you can show off your bot enhancements
-or ask fellow developers to help testing. Please contact `@tk3369#8593` or
-`@CeterisParibus#5385` on Discord to get an invite link.
-Typically, we want to run some tests on the test server before releasing new
-functionality.
-
 ## Deploying to live site!
 
 Once your code has been merged to the `main` branch and testing has been successful,
